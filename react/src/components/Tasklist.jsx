@@ -1,5 +1,5 @@
 import { useEffect, useReducer, useRef } from "react";
-import './TaskList.css'
+import '../components/Tasklist.css'
 
 const taskReducer = (state,action) => {
     switch(action.type){
